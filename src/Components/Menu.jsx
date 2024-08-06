@@ -20,8 +20,6 @@ const Menu = () => {
             </ul>
 
             <div className='flex gap-4 items-center'>
-                {/* dark mode is update here */}
-                <img src="/images/moon.png" className='w-7 cursor-pointer' alt="" />
                 <a href="#contact" className="hidden lg:flex items-center gap-3 px-4 py-2 border border-gray-500 rounded-md ml-4">
                     Contact me 
                     <img  src="/images/top-right.png" alt="" className="w-7" />
