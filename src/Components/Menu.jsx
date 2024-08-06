@@ -39,7 +39,7 @@ const Menu = () => {
                 <li onClick={() => setState('-right-60')}> <a href="#top"> Home </a> </li>
                 <li onClick={() => setState('-right-60')}> <a href="#about"> About me</a> </li>
                 <li onClick={() => setState('-right-60')}> <a href="#education"> Education </a> </li>
-                <li onClick={() => setState('-right-60')}> <a href="#work"> My Work </a> </li>
+                <li onClick={() => setState('-right-60')}> <a href="#services"> My Work </a> </li>
                 <li onClick={() => setState('-right-60')}> <a href="#contact"> Contact me </a> </li>
             </ul>
         </nav>
