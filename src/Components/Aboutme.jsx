@@ -19,7 +19,7 @@ const AboutMe = () => {
                 {/* Languages projects and Certification */}
                 <div className="flex flex-col gap-5">
                 <p className="max-w-1xl text-center m-auto">
-                        Hi, I'm P Naveen Kumar, an aspiring web developer with a passion for creating dynamic and responsive websites. I recently graduated with a degree in Computer Science and have completed several online courses in web development and design.
+                        Hi, I'm P Naveen Kumar, an aspiring web developer with a passion for creating dynamic and responsive websites. I recently graduated with a degree in ECE and have completed several online courses in web development and design.
                 </p>
                     <ul className="grid gap-6 max-w-2xl">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
