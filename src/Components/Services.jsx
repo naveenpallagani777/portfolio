@@ -7,7 +7,7 @@ const ServiceItem = ({ imgSrc, title, description }) => {
     <div className="border border-gray-400 rounded-lg px-8 py-10 hover:shadow-[4px_4px_10px_#000] cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500">
       <img src={imgSrc} alt={title} className="w-20 mb-4 bg-slate-300 px-2 py-2 rounded-lg"/>
       <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className='text-justify'>
+      <p>
         {isExpanded ? description : `${description.substring(0, 100)}...`}
         <span 
           className="text-blue-500 cursor-pointer ml-2"

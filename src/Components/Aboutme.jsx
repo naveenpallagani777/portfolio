@@ -24,23 +24,31 @@ const AboutMe = () => {
                     <ul className="grid gap-6 max-w-2xl">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
-                                <img
-                                    src="/images/coding.png"
-                                    alt="Coding icon"
-                                    className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
-                                />
-                                <h3 className="my-4 font-semibold text-gray-700">Languages</h3>
+                                <div className="flex items-center gap-3">
+                                    <img
+                                        src="/images/coding.png"
+                                        alt="Coding icon"
+                                        className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
+                                    />
+                                    <h3 className="my-4 font-semibold text-gray-700">Languages</h3>
+                                </div>
+                                
                                 <p className="text-gray-600">
                                     Java, Python, JavaScript, MERN Stack, React JS, Next JS, HTML, CSS, Tailwind CSS.
                                 </p>
                             </li>
                             <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
-                                <img
-                                    src="/images/project.png"
-                                    alt="Projects icon"
-                                    className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
-                                />
-                                <h3 className="my-4 font-semibold text-gray-700">Projects</h3>
+                                
+                                <div className="flex items-center gap-3">
+                                    <img
+                                        src="/images/project.png"
+                                        alt="Projects icon"
+                                        className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
+                                    />
+                                    <h3 className="my-4 font-semibold text-gray-700">Projects</h3>
+                                </div>
+                                
+                                
                                 <p className="text-gray-600">
                                     Two projects using MERN Stack and one Mini Search System using Information Retrieval.
                                 </p>
@@ -48,12 +56,15 @@ const AboutMe = () => {
                         </div>
                         <div className="grid grid-cols-1">
                             <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
-                                <img
-                                    src="/images/certification.png"
-                                    alt="Projects icon"
-                                    className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
-                                />
-                                <h3 className="my-4 font-semibold text-gray-700">Certification</h3>
+                                <div className="flex items-center gap-3">
+                                    <img
+                                        src="/images/certification.png"
+                                        alt="Projects icon"
+                                        className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
+                                    />
+                                    <h3 className="my-4 font-semibold text-gray-700">Certification</h3>
+                                </div>
+                                
                                 <p className="text-gray-600">
                                     Python Data Structures Certification <br /> &nbsp;&nbsp;  - authorized by University of Michigan and offered through Coursera.
                                 </p>
