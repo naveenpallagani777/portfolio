@@ -27,7 +27,7 @@ const AboutMe = () => {
                     <ul className="grid gap-6 max-w-2xl">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                             <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
-                                <div className="flex items-center gap-3">
+                                <div className="flex items-center gap-3 mb-2">
                                     <img
                                         src="/images/coding.png"
                                         alt="Coding icon"
@@ -35,10 +35,37 @@ const AboutMe = () => {
                                     />
                                     <h3 className="my-4 font-semibold">Languages</h3>
                                 </div>
-                                
-                                <p className="">
-                                    Java, Python, JavaScript, MERN Stack, React JS, Next JS, HTML, CSS, Tailwind CSS.
-                                </p>
+
+                                <div className="flex gap-3 flex-wrap">
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/java.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />Java,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/python.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />Python,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/javaScript.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />Java Script,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/mern.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />MERN Stack,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/react.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />React Js,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/nextjs.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />Next Js,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/html.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />HTML,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/css.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />CSS,
+                                    </p>
+                                    <p className="flex items-center gap-1">
+                                    <img src="./images/tailwind.png" className="w-5 bg-slate-300 p-0.5 rounded-sm" alt="" />Tailwind CSS.
+                                    </p>
+
+                                </div>
                             </li>
                             <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
                                 
