@@ -1,7 +1,10 @@
-const AboutMe = () => {
+import { useContext } from "react";
+import { Authcontext } from "../Context/ContextProvider";
 
+const AboutMe = () => {
+    let {mode} = useContext(Authcontext);
     return (
-        <div id="about" className="w-full px-[12%] py-10 scroll-m-20 font-Outfit">
+        <div id="about" className={`w-full px-[12%] py-10 scroll-m-20 font-Outfit ${mode}`}>
             <h4 className="text-center mb-2 text-2xl font-OVo">Introduction</h4>
             <h2 className="text-center text-5xl font-OVo">About Me</h2>
             
@@ -23,21 +26,21 @@ const AboutMe = () => {
                 </p>
                     <ul className="grid gap-6 max-w-2xl">
                         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
+                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
                                 <div className="flex items-center gap-3">
                                     <img
                                         src="/images/coding.png"
                                         alt="Coding icon"
                                         className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
                                     />
-                                    <h3 className="my-4 font-semibold text-gray-700">Languages</h3>
+                                    <h3 className="my-4 font-semibold">Languages</h3>
                                 </div>
                                 
-                                <p className="text-gray-600">
+                                <p className="">
                                     Java, Python, JavaScript, MERN Stack, React JS, Next JS, HTML, CSS, Tailwind CSS.
                                 </p>
                             </li>
-                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
+                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
                                 
                                 <div className="flex items-center gap-3">
                                     <img
@@ -45,30 +48,30 @@ const AboutMe = () => {
                                         alt="Projects icon"
                                         className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
                                     />
-                                    <h3 className="my-4 font-semibold text-gray-700">Projects</h3>
+                                    <h3 className="my-4 font-semibold ">Projects</h3>
                                 </div>
                                 
                                 
-                                <p className="text-gray-600">
+                                <p className="">
                                     Two projects using MERN Stack and one Mini Search System using Information Retrieval.
                                 </p>
                             </li>
                         </div>
                         <div className="grid grid-cols-1">
-                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:bg-[#fcf4ff] hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
+                            <li className="border-[0.5px] border-gray-400 rounded-xl p-4 cursor-pointer hover:-translate-y-1 duration-500 hover:shadow-[4px_4px_10px_#000]">
                                 <div className="flex items-center gap-3">
                                     <img
                                         src="/images/certification.png"
                                         alt="Projects icon"
                                         className="w-10 bg-slate-300 px-1 py-1 rounded-lg"
                                     />
-                                    <h3 className="my-4 font-semibold text-gray-700">Certification</h3>
+                                    <h3 className="my-4 font-semibold ">Certification</h3>
                                 </div>
                                 
-                                <p className="text-gray-600">
+                                <p className="">
                                     Python Data Structures Certification <br /> &nbsp;&nbsp;  - authorized by University of Michigan and offered through Coursera.
                                 </p>
-                                <p className="text-gray-600">
+                                <p className="">
                                 Programming fundamentals using Python <br /> &nbsp;&nbsp;   - programming fundamentals using python by Infosys Springboard. 
                                 </p>
                             
