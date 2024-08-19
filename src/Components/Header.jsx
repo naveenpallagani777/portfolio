@@ -1,6 +1,11 @@
+import { useContext } from "react";
+import { Authcontext } from "../Context/ContextProvider";
+
 const Header = () => {
-    return(<div className="w-11/12 max-w-3xl text-center mx-auto  h-screen flex flex-col
-        items-center justify-center gap-4 font-Outfit">
+    let {mode} = useContext(Authcontext);
+    
+    return(<div className={`w-full  text-center mx-auto  h-screen flex flex-col
+        items-center justify-center py-2 gap-4 font-Outfit ${mode}`}>
         <img src="/images/profile.jpeg" alt="" className="w-32 rounded-full" />
         <h3 className="text-2xl md:text-2xl font-semibold">hi! I'm P Naveen Kumar</h3>
         <h1 className="text-3xl sm:text-6xl lg:text-[66px] font-extrabold font-OVo">Full-stack developer</h1>
