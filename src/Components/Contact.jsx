@@ -27,7 +27,7 @@ const Contact = () => {
                 <textarea 
                     rows="6" 
                     placeholder="Enter your message" 
-                    className={`w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white ${mode}`}
+                    className={`w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md ${mode}`}
                 ></textarea>
                 <button className="py-3 px-8 bg-blue-500 text-white rounded-md flex justify-center gap-3 items-center">
                     SUBMIT <img src="/images/arrow-right.png" alt="" className="w-5" />
